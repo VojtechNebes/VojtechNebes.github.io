@@ -1,0 +1,58 @@
+@media screen and (orientation: landscape) {
+    main {
+        padding: 1rem 7rem;
+    }
+
+    section {
+        margin-bottom: 8rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    /* section#images */
+
+    section#images > img {
+        height: 18rem;
+    }
+
+    /* section#plusy */
+
+    #plusy-items {
+        gap: 5rem 15rem;
+        /* padding: 0 15vw; */
+    }
+
+    #plusy-items > div {
+        max-width: 10rem;
+    }
+
+    #plusy-items > div > p {
+        font-size: 1.5rem;
+    }
+
+    /* section#descr1 */
+
+    section#descr1 > div {
+        flex-direction: row;
+    }
+
+    #section#descr1 > div > img {
+        
+    }
+
+    /* section#descr2 */
+
+    section#descr2 > div {
+        flex-direction: row-reverse;
+    }
+
+    section#descr2 > div > div {
+        transform: translate(-1.5rem, 1.5rem);
+    }
+
+    section#descr2 > div > div > img {
+        transform: translate(3rem, -3rem);
+    }
+}
